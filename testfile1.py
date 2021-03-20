@@ -1,0 +1,5 @@
+myfile = open("D:\poem1.txt","r")
+str = myfile.read()
+size = len(str)
+print(str)
+print("Size occupied by the file is ",size)
